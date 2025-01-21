@@ -1,0 +1,3168 @@
+{
+	"uuid": "4fe8f346-f1d8-4da3-9ca5-c7dacc912776",
+	"historyId": "Создание Решения о проведении инвентаризации из ЛК сотрудника.Создание Решения о проведении инвентаризации из ЛК сотрудника",
+	"name": "Создание Решения о проведении инвентаризации из ЛК сотрудника",
+	"fullName": "test/test1.feature_создание решения о проведении инвентаризации из лк сотрудника",
+	"testCaseId": "e3f403870093e96affa83ebed97f152e",
+	"start": 1737451956275,
+	"stop": 1737451962127,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Не получилось сделать выбор в поле <ОбъектыКФО> значения <2>.",
+		"trace": "{ExternalDataProcessor.РаботаСИнтерфейсом.Form.Форма.Form(14123)}: {ExternalDataProcessor.РаботаСИнтерфейсом.Form.Форма.Form(14107)}: Не получилось сделать выбор в поле <ОбъектыКФО> значения <2>. \n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Решение о проведении инвентаризации (ф. 0510439) (создание) *\n        ИмяАктивнойФормы: Документ.РешениеОПроведенииИнвентаризации.Форма.ФормаДокумента\n        ИмяФичи: Создание Решения о проведении инвентаризации из ЛК сотрудника\n        ИмяСценария: Создание Решения о проведении инвентаризации из ЛК сотрудника\n        НомерСтрокиДерева: 26\n        НомерСтрокиФичи: 55\n        ПолныйПутьКФиче: C:\\Users\\User\\Documents\\GitHub\\Practice\\Test\\Test1.feature\n        ИмяФайла: C:/Users/User/Documents/vanessa-automation/features/Libraries/UITestRunner/step_definitions/РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ВТаблицеИзВыпадающегоСпискаСИменемЯВыбираюТочноеЗначение\n        ИмяРаннера: DESKTOP-CUV39C4\n        ИмяКлиентаТестирования: Клиент БГУ\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"rigel\";Ref=\"YRBGU2\";\n        ДопПараметрыПодключения: /N\"БрызгаловаЮ\" /P\"ceqiD977\" /БрызгаловаЮ \n        PIDКлиентаТестирования: 16680\n        ВерсияVA: ver 1.2.041.30\n        ВерсияПлатформы: 8.3.25.1445\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: Version8_3_18\n        ВремяРаботыСценария: 0:00:06 (ч:м:с)\n        ДатаВремяОшибки: 21.01.2025 12:32:42"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "*НИТУ МИСИС",
+			"start": 1737451956709,
+			"stop": 1737451962127,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И в таблице клиентов тестирования я активизирую строку 'Клиент БГУ'",
+					"start": 1737451956709,
+					"stop": 1737451956710,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Клиент БГУ"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я вывожу сообщение в менеджер тестирования \"Клиент1 подключен\"",
+					"start": 1737451956713,
+					"stop": 1737451962127,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "И Я Создаю решение об инвентаризации для \"НИТУ МИСИС\", КодОрганизация = \"000001\", ЗначениеОбъектыКФО = \"2\", Сотрудник = \"Абакумов\", КодМестаХранения = \"523\", НаименованиеМестаХранения = \"Офис управления проектами\", СогласующееЛицо =\"Васильев Роман Александрович\", ТабельныйНомерСоглЛица = \"0408195\", ОснованиеПроведениеИнвентаризации = \"[Внеплановая выборочная инвентариз.в связи с ЧС туш]\", КодОснования ПроведенияИнвентаризации = \"[00000000039]\"",
+							"start": 1737451956713,
+							"stop": 1737451962127,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [],
+							"attachments": [],
+							"steps": [
+								{
+									"name": "И В командном интерфейсе я выбираю \"Личный кабинет сотрудника\" \"Решения о проведении инвентаризации (ф. 0510439)\"",
+									"start": 1737451956713,
+									"stop": 1737451956731,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "Личный кабинет сотрудника"
+										},
+										{
+											"name": "Парам2",
+											"value": "Решения о проведении инвентаризации (ф. 0510439)"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Тогда открылось окно \"Решения о проведении инвентаризации (ф. 0510439)\"",
+									"start": 1737451956734,
+									"stop": 1737451957073,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "Решения о проведении инвентаризации (ф. 0510439)"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "И я нажимаю на кнопку с именем 'ФормаСоздать'",
+									"start": 1737451957076,
+									"stop": 1737451957080,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ФормаСоздать"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "И я нажимаю кнопку выбора у поля с именем 'ОснованиеПроведенияИнвентаризации'",
+									"start": 1737451957082,
+									"stop": 1737451957879,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ОснованиеПроведенияИнвентаризации"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Тогда открылось окно \"Основания проведения инвентаризации\"",
+									"start": 1737451957882,
+									"stop": 1737451957953,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "Основания проведения инвентаризации"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+									"start": 1737451957956,
+									"stop": 1737451957961,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ФормаВыбрать"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Тогда открылось окно \"Решение о проведении инвентаризации (ф. 0510439) (создание) *\"",
+									"start": 1737451957962,
+									"stop": 1737451957972,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "Решение о проведении инвентаризации (ф. 0510439) (создание) *"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "И я нажимаю кнопку выбора у поля с именем 'Организация'",
+									"start": 1737451957974,
+									"stop": 1737451957983,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "Организация"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Тогда открылось окно \"Организации\"",
+									"start": 1737451957986,
+									"stop": 1737451958090,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "Организации"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "И в таблице 'Список' я активизирую дополнение формы с именем 'СписокСтрокаПоиска'",
+									"start": 1737451958093,
+									"stop": 1737451958096,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "Список"
+										},
+										{
+											"name": "Парам2",
+											"value": "СписокСтрокаПоиска"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "И в таблице 'Список' в дополнение формы с именем 'СписокСтрокаПоиска' я ввожу текст 'НИТУ МИСИС 000001'",
+									"start": 1737451958098,
+									"stop": 1737451958100,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "Список"
+										},
+										{
+											"name": "Парам2",
+											"value": "СписокСтрокаПоиска"
+										},
+										{
+											"name": "Парам3",
+											"value": "НИТУ МИСИС 000001"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+									"start": 1737451958102,
+									"stop": 1737451958347,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ФормаВыбрать"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "*Объекты инвертаризации",
+									"start": 1737451958351,
+									"stop": 1737451962126,
+									"status": "passed",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [],
+									"attachments": [],
+									"steps": [
+										{
+											"name": "И в таблице 'Объекты' я нажимаю на кнопку с именем 'ОбъектыДобавить'",
+											"start": 1737451958351,
+											"stop": 1737451962126,
+											"status": "passed",
+											"stage": "finished",
+											"statusDetails": {
+												"known": false,
+												"muted": false,
+												"flaky": false
+											},
+											"parameters": [],
+											"attachments": [],
+											"steps": [
+												{
+													"name": "Когда открылось окно \"Решение о проведении инвентаризации *\"",
+													"start": 1737451958351,
+													"stop": 1737451958442,
+													"status": "passed",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Решение о проведении инвентаризации *"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Объекты' я нажимаю на кнопку с именем 'ОбъектыДобавить'",
+													"start": 1737451958445,
+													"stop": 1737451958451,
+													"status": "passed",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Объекты"
+														},
+														{
+															"name": "Парам2",
+															"value": "ОбъектыДобавить"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Объекты' из выпадающего списка с именем 'ОбъектыКФО' я выбираю точное значение \"2\"",
+													"start": 1737451958453,
+													"stop": 1737451962126,
+													"status": "failed",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false,
+														"message": "Не получилось сделать выбор в поле <ОбъектыКФО> значения <2>.",
+														"trace": "{ExternalDataProcessor.РаботаСИнтерфейсом.Form.Форма.Form(14123)}: {ExternalDataProcessor.РаботаСИнтерфейсом.Form.Форма.Form(14107)}: Не получилось сделать выбор в поле <ОбъектыКФО> значения <2>. \n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Решение о проведении инвентаризации (ф. 0510439) (создание) *\n        ИмяАктивнойФормы: Документ.РешениеОПроведенииИнвентаризации.Форма.ФормаДокумента\n        ИмяФичи: Создание Решения о проведении инвентаризации из ЛК сотрудника\n        ИмяСценария: Создание Решения о проведении инвентаризации из ЛК сотрудника\n        НомерСтрокиДерева: 26\n        НомерСтрокиФичи: 55\n        ПолныйПутьКФиче: C:\\Users\\User\\Documents\\GitHub\\Practice\\Test\\Test1.feature\n        ИмяФайла: C:/Users/User/Documents/vanessa-automation/features/Libraries/UITestRunner/step_definitions/РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ВТаблицеИзВыпадающегоСпискаСИменемЯВыбираюТочноеЗначение\n        ИмяРаннера: DESKTOP-CUV39C4\n        ИмяКлиентаТестирования: Клиент БГУ\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"rigel\";Ref=\"YRBGU2\";\n        ДопПараметрыПодключения: /N\"БрызгаловаЮ\" /P\"ceqiD977\" /БрызгаловаЮ \n        PIDКлиентаТестирования: 16680\n        ВерсияVA: ver 1.2.041.30\n        ВерсияПлатформы: 8.3.25.1445\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: Version8_3_18\n        ВремяРаботыСценария: 0:00:06 (ч:м:с)\n        ДатаВремяОшибки: 21.01.2025 12:32:42"
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Объекты"
+														},
+														{
+															"name": "Парам2",
+															"value": "ОбъектыКФО"
+														},
+														{
+															"name": "Парам3",
+															"value": "2"
+														}
+													],
+													"attachments": [
+														{
+															"name": "ЖурналРегистрации.mxl",
+															"source": "4832b68b-13a9-4e12-a38f-be6ea8fb776a-attachment.mxl",
+															"type": "mxl"
+														},
+														{
+															"name": "ЖурналРегистрации.html",
+															"source": "d0e08def-8df6-4f9c-aa6d-0f6839d61f6d-attachment.html",
+															"type": "html"
+														},
+														{
+															"name": "ЖурналРегистрации.xlsx",
+															"source": "38b510dc-f044-4797-8273-8399709e4d81-attachment.xlsx",
+															"type": "xlsx"
+														},
+														{
+															"name": "СостояниеАктивнойФормы.mxl",
+															"source": "b85282e3-795b-4088-9c9b-5d508e7bdcc7-attachment.mxl",
+															"type": "mxl"
+														},
+														{
+															"name": "СостояниеАктивнойФормы.html",
+															"source": "c06fcef6-d81d-4cd7-83e2-1c0831a1d391-attachment.html",
+															"type": "html"
+														},
+														{
+															"name": "СостояниеАктивнойФормы.xlsx",
+															"source": "3d2c217e-a086-45d0-b3e2-1c56946b6d1e-attachment.xlsx",
+															"type": "xlsx"
+														},
+														{
+															"name": "СостояниеВсехФорм.mxl",
+															"source": "73eaf70a-87cd-468d-b00e-33f89f7d7233-attachment.mxl",
+															"type": "mxl"
+														},
+														{
+															"name": "СостояниеВсехФорм.html",
+															"source": "bb43b246-4781-4923-8932-3edafc9c5fd9-attachment.html",
+															"type": "html"
+														},
+														{
+															"name": "СостояниеВсехФорм.xlsx",
+															"source": "89aa32f5-b9a1-49be-ba01-dba839d8686a-attachment.xlsx",
+															"type": "xlsx"
+														},
+														{
+															"name": "ДанныеОСетевыхСоединениях.txt",
+															"source": "1ef7dab6-34c1-4eba-ae66-58923b724416-attachment.txt",
+															"type": "txt"
+														},
+														{
+															"name": "ДанныеОПроцессахОС.txt",
+															"source": "f6b3c666-0d19-487d-a726-bb42da61588d-attachment.txt",
+															"type": "txt"
+														},
+														{
+															"name": "ЗначенияПеременных.mxl",
+															"source": "b4421879-9d3d-4a48-ac16-5e7382798f08-attachment.mxl",
+															"type": "mxl"
+														},
+														{
+															"name": "ЗначенияПеременных.html",
+															"source": "6d283c01-2127-4405-b20d-3aebd28e684b-attachment.html",
+															"type": "html"
+														}
+													],
+													"steps": []
+												},
+												{
+													"name": "И я перехожу к следующему реквизиту",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Объекты' я нажимаю кнопку выбора у реквизита с именем 'ОбъектыСчет'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Объекты"
+														},
+														{
+															"name": "Парам2",
+															"value": "ОбъектыСчет"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "Тогда открылось окно \"План счетов (ЕПСБУ)\"",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "План счетов (ЕПСБУ)"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "ФормаВыбрать"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "Тогда открылось окно \"Решение о проведении инвентаризации *\"",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Решение о проведении инвентаризации *"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Объекты' я активизирую поле с именем 'ОбъектыСотрудник'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Объекты"
+														},
+														{
+															"name": "Парам2",
+															"value": "ОбъектыСотрудник"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Объекты' я нажимаю кнопку выбора у реквизита с именем 'ОбъектыСотрудник'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Объекты"
+														},
+														{
+															"name": "Парам2",
+															"value": "ОбъектыСотрудник"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Список' я активизирую дополнение формы с именем 'Дополнение1'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Список"
+														},
+														{
+															"name": "Парам2",
+															"value": "Дополнение1"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Список' в дополнение формы с именем 'Дополнение1' я ввожу текст \"Абакумов\"",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Список"
+														},
+														{
+															"name": "Парам2",
+															"value": "Дополнение1"
+														},
+														{
+															"name": "Парам3",
+															"value": "Абакумов"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Список' я нажимаю на кнопку с именем 'ФормаВыбрать'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Список"
+														},
+														{
+															"name": "Парам2",
+															"value": "ФормаВыбрать"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "Тогда открылось окно \"Решение о проведении инвентаризации *\"",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Решение о проведении инвентаризации *"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Объекты' я активизирую поле с именем 'ОбъектыДатаИнвентаризации'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Объекты"
+														},
+														{
+															"name": "Парам2",
+															"value": "ОбъектыДатаИнвентаризации"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Объекты' в поле с именем 'ОбъектыДатаИнвентаризации' я ввожу текущую дату",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Объекты"
+														},
+														{
+															"name": "Парам2",
+															"value": "ОбъектыДатаИнвентаризации"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Объекты' я активизирую поле с именем 'ОбъектыДатаНачала'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Объекты"
+														},
+														{
+															"name": "Парам2",
+															"value": "ОбъектыДатаНачала"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Объекты' в поле с именем 'ОбъектыДатаНачала' я ввожу текущую дату",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Объекты"
+														},
+														{
+															"name": "Парам2",
+															"value": "ОбъектыДатаНачала"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Объекты' я активизирую поле с именем 'ОбъектыДатаОкончания'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Объекты"
+														},
+														{
+															"name": "Парам2",
+															"value": "ОбъектыДатаОкончания"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Объекты' в поле с именем 'ОбъектыДатаОкончания' я ввожу текущую дату",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Объекты"
+														},
+														{
+															"name": "Парам2",
+															"value": "ОбъектыДатаОкончания"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Объекты' я активизирую поле с именем 'ОбъектыНомерКомиссии'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Объекты"
+														},
+														{
+															"name": "Парам2",
+															"value": "ОбъектыНомерКомиссии"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Объекты' я выбираю текущую строку",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Объекты"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Объекты' в поле с именем 'ОбъектыНомерКомиссии' я ввожу текст \"1\"",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Объекты"
+														},
+														{
+															"name": "Парам2",
+															"value": "ОбъектыНомерКомиссии"
+														},
+														{
+															"name": "Парам3",
+															"value": "1"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Объекты' я активизирую поле с именем 'ОбъектыМестоПроведения'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Объекты"
+														},
+														{
+															"name": "Парам2",
+															"value": "ОбъектыМестоПроведения"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Объекты' я выбираю текущую строку",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Объекты"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Объекты' я нажимаю кнопку выбора у реквизита с именем 'ОбъектыМестоПроведения'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Объекты"
+														},
+														{
+															"name": "Парам2",
+															"value": "ОбъектыМестоПроведения"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "Тогда открылось окно \"Выбор типа данных\"",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Выбор типа данных"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице '' я перехожу к строке:",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": ""
+														}
+													],
+													"attachments": [
+														{
+															"name": "table",
+															"source": "50cd7740-753f-4519-9880-92810d7f2df6-attachment.csv",
+															"type": "text/csv"
+														}
+													],
+													"steps": []
+												},
+												{
+													"name": "И в таблице '' я перехожу к строке:",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": ""
+														}
+													],
+													"attachments": [
+														{
+															"name": "table",
+															"source": "ed556bd2-7be9-4e45-9d3b-33414569ad50-attachment.csv",
+															"type": "text/csv"
+														}
+													],
+													"steps": []
+												},
+												{
+													"name": "И я нажимаю на кнопку \"ОК\"",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "ОК"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "Тогда открылось окно \"Места хранения\"",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Места хранения"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Список' я нажимаю на кнопку с именем 'ФормаНайти'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Список"
+														},
+														{
+															"name": "Парам2",
+															"value": "ФормаНайти"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "Тогда открылось окно \"Найти\"",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Найти"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в поле с именем 'Pattern' я ввожу текст \"Офис управления проектами\"",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Pattern"
+														},
+														{
+															"name": "Парам2",
+															"value": "Офис управления проектами"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И я нажимаю на кнопку с именем 'Find'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Find"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "Тогда открылось окно \"Места хранения\"",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Места хранения"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Список' я нажимаю на кнопку с именем 'ФормаВыбрать'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Список"
+														},
+														{
+															"name": "Парам2",
+															"value": "ФормаВыбрать"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "Тогда открылось окно \"Решение о проведении инвентаризации *\"",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Решение о проведении инвентаризации *"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Объекты' я завершаю редактирование строки",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Объекты"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Объекты' я активизирую поле с именем 'ОбъектыПримечание'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Объекты"
+														},
+														{
+															"name": "Парам2",
+															"value": "ОбъектыПримечание"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Объекты' из выпадающего списка с именем 'ОбъектыПримечание' я выбираю точное значение \"сплошная\"",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Объекты"
+														},
+														{
+															"name": "Парам2",
+															"value": "ОбъектыПримечание"
+														},
+														{
+															"name": "Парам3",
+															"value": "сплошная"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Объекты' я завершаю редактирование строки",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Объекты"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "*Инвентаризационные комиссии",
+									"start": 1737451962126,
+									"stop": 1737451962126,
+									"status": "skipped",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [],
+									"attachments": [],
+									"steps": [
+										{
+											"name": "И я перехожу к закладке с именем 'ГруппаКомиссии'",
+											"start": 1737451962126,
+											"stop": 1737451962126,
+											"status": "skipped",
+											"stage": "finished",
+											"statusDetails": {
+												"known": false,
+												"muted": false,
+												"flaky": false
+											},
+											"parameters": [],
+											"attachments": [],
+											"steps": [
+												{
+													"name": "И в таблице 'Комиссии' я нажимаю на кнопку с именем 'КомиссииДобавить'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Комиссии"
+														},
+														{
+															"name": "Парам2",
+															"value": "КомиссииДобавить"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Комиссии' я выбираю текущую строку",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Комиссии"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Комиссии' я нажимаю кнопку выбора у реквизита с именем 'КомиссииКомиссия'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Комиссии"
+														},
+														{
+															"name": "Парам2",
+															"value": "КомиссииКомиссия"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "Тогда открылось окно \"Комиссии\"",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Комиссии"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Список' я нажимаю на кнопку с именем 'ФормаВыбрать'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Список"
+														},
+														{
+															"name": "Парам2",
+															"value": "ФормаВыбрать"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "Тогда открылось окно \"Решение о проведении инвентаризации *\"",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Решение о проведении инвентаризации *"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Комиссии' я завершаю редактирование строки",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Комиссии"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Комиссии' я активизирую поле с именем 'КомиссииПредставлениеРабочихКомиссий'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Комиссии"
+														},
+														{
+															"name": "Парам2",
+															"value": "КомиссииПредставлениеРабочихКомиссий"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Комиссии' я выбираю текущую строку",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Комиссии"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Комиссии' я активизирую поле с именем 'КомиссииПредставлениеАктов'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Комиссии"
+														},
+														{
+															"name": "Парам2",
+															"value": "КомиссииПредставлениеАктов"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'Комиссии' я выбираю текущую строку",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Комиссии"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "*Акты о проведении инвентаризации",
+									"start": 1737451962126,
+									"stop": 1737451962126,
+									"status": "skipped",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [],
+									"attachments": [],
+									"steps": [
+										{
+											"name": "И я перехожу к закладке с именем 'ГруппаАктыОПроведенииИнвентаризации'",
+											"start": 1737451962126,
+											"stop": 1737451962126,
+											"status": "skipped",
+											"stage": "finished",
+											"statusDetails": {
+												"known": false,
+												"muted": false,
+												"flaky": false
+											},
+											"parameters": [],
+											"attachments": [],
+											"steps": [
+												{
+													"name": "И в таблице 'АктыОПроведенииИнвентаризации' я нажимаю на кнопку с именем 'АктыОПроведенииИнвентаризацииДобавить'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "АктыОПроведенииИнвентаризации"
+														},
+														{
+															"name": "Парам2",
+															"value": "АктыОПроведенииИнвентаризацииДобавить"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'АктыОПроведенииИнвентаризации' я нажимаю кнопку выбора у реквизита с именем 'АктыОПроведенииИнвентаризацииНаименование'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "АктыОПроведенииИнвентаризации"
+														},
+														{
+															"name": "Парам2",
+															"value": "АктыОПроведенииИнвентаризацииНаименование"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "Тогда открылось окно \"Виды первичных документов\"",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Виды первичных документов"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "ФормаВыбрать"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "Тогда открылось окно \"Решение о проведении инвентаризации *\"",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Решение о проведении инвентаризации *"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'АктыОПроведенииИнвентаризации' я активизирую поле с именем 'АктыОПроведенииИнвентаризацииДата'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "АктыОПроведенииИнвентаризации"
+														},
+														{
+															"name": "Парам2",
+															"value": "АктыОПроведенииИнвентаризацииДата"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "Когда открылось окно \"Решение о проведении инвентаризации *\"",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Решение о проведении инвентаризации *"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'АктыОПроведенииИнвентаризации' я активизирую поле с именем 'АктыОПроведенииИнвентаризацииДата'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "АктыОПроведенииИнвентаризации"
+														},
+														{
+															"name": "Парам2",
+															"value": "АктыОПроведенииИнвентаризацииДата"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'АктыОПроведенииИнвентаризации' я выбираю текущую строку",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "АктыОПроведенииИнвентаризации"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'АктыОПроведенииИнвентаризации' в поле с именем 'АктыОПроведенииИнвентаризацииДата' я ввожу текущую дату",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "АктыОПроведенииИнвентаризации"
+														},
+														{
+															"name": "Парам2",
+															"value": "АктыОПроведенииИнвентаризацииДата"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'АктыОПроведенииИнвентаризации' я активизирую поле с именем 'АктыОПроведенииИнвентаризацииНомер'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "АктыОПроведенииИнвентаризации"
+														},
+														{
+															"name": "Парам2",
+															"value": "АктыОПроведенииИнвентаризацииНомер"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'АктыОПроведенииИнвентаризации' в поле с именем 'АктыОПроведенииИнвентаризацииНомер' я ввожу текст \"101\"",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "АктыОПроведенииИнвентаризации"
+														},
+														{
+															"name": "Парам2",
+															"value": "АктыОПроведенииИнвентаризацииНомер"
+														},
+														{
+															"name": "Парам3",
+															"value": "101"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												}
+											]
+										},
+										{
+											"name": "И я перехожу к закладке с именем 'ГруппаДатыПодписания'",
+											"start": 1737451962126,
+											"stop": 1737451962126,
+											"status": "skipped",
+											"stage": "finished",
+											"statusDetails": {
+												"known": false,
+												"muted": false,
+												"flaky": false
+											},
+											"parameters": [],
+											"attachments": [],
+											"steps": [
+												{
+													"name": "И в таблице 'АктыОПроведенииИнвентаризации' я завершаю редактирование строки",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "АктыОПроведенииИнвентаризации"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И я нажимаю кнопку выбора у поля с именем 'ДатаПодписиРуководитель'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "ДатаПодписиРуководитель"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в поле с именем 'ДатаПодписиРуководитель' я ввожу текущую дату",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "ДатаПодписиРуководитель"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И я нажимаю кнопку выбора у поля с именем 'ДатаПодписиОтветственный'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "ДатаПодписиОтветственный"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в поле с именем 'ДатаПодписиОтветственный' я ввожу текущую дату",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "ДатаПодписиОтветственный"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "*Лист ознакомления",
+									"start": 1737451962126,
+									"stop": 1737451962126,
+									"status": "skipped",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [],
+									"attachments": [],
+									"steps": [
+										{
+											"name": "И я перехожу к закладке с именем 'ГруппаЛистОзнакомления'",
+											"start": 1737451962126,
+											"stop": 1737451962126,
+											"status": "skipped",
+											"stage": "finished",
+											"statusDetails": {
+												"known": false,
+												"muted": false,
+												"flaky": false
+											},
+											"parameters": [],
+											"attachments": [],
+											"steps": [
+												{
+													"name": "И в таблице 'ЛистОзнакомления' я нажимаю на кнопку с именем 'ЛистОзнакомленияДобавить'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "ЛистОзнакомления"
+														},
+														{
+															"name": "Парам2",
+															"value": "ЛистОзнакомленияДобавить"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "Когда открылось окно \"Решение о проведении инвентаризации *\"",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Решение о проведении инвентаризации *"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И в таблице 'ЛистОзнакомления' я нажимаю на кнопку с именем 'ЗаполнитьЛистОзнакомления'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "ЛистОзнакомления"
+														},
+														{
+															"name": "Парам2",
+															"value": "ЗаполнитьЛистОзнакомления"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "Тогда открылось окно \"1С:Предприятие\"",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "1С:Предприятие"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И я нажимаю на кнопку с именем 'Button0'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Button0"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "*Лист согласования",
+									"start": 1737451962126,
+									"stop": 1737451962126,
+									"status": "skipped",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [],
+									"attachments": [],
+									"steps": [
+										{
+											"name": "И в таблице 'ЛистСогласования' я нажимаю на кнопку с именем 'ЛистСогласованияДобавить'",
+											"start": 1737451962126,
+											"stop": 1737451962126,
+											"status": "skipped",
+											"stage": "finished",
+											"statusDetails": {
+												"known": false,
+												"muted": false,
+												"flaky": false
+											},
+											"parameters": [
+												{
+													"name": "Парам1",
+													"value": "ЛистСогласования"
+												},
+												{
+													"name": "Парам2",
+													"value": "ЛистСогласованияДобавить"
+												}
+											],
+											"attachments": [],
+											"steps": []
+										},
+										{
+											"name": "И в таблице 'ЛистСогласования' я нажимаю кнопку выбора у реквизита с именем 'ЛистСогласованияСотрудник'",
+											"start": 1737451962126,
+											"stop": 1737451962126,
+											"status": "skipped",
+											"stage": "finished",
+											"statusDetails": {
+												"known": false,
+												"muted": false,
+												"flaky": false
+											},
+											"parameters": [
+												{
+													"name": "Парам1",
+													"value": "ЛистСогласования"
+												},
+												{
+													"name": "Парам2",
+													"value": "ЛистСогласованияСотрудник"
+												}
+											],
+											"attachments": [],
+											"steps": []
+										},
+										{
+											"name": "Тогда открылось окно \"Сотрудники\"",
+											"start": 1737451962126,
+											"stop": 1737451962126,
+											"status": "skipped",
+											"stage": "finished",
+											"statusDetails": {
+												"known": false,
+												"muted": false,
+												"flaky": false
+											},
+											"parameters": [
+												{
+													"name": "Парам1",
+													"value": "Сотрудники"
+												}
+											],
+											"attachments": [],
+											"steps": []
+										},
+										{
+											"name": "И в таблице 'Список' я активизирую дополнение формы с именем 'Дополнение1'",
+											"start": 1737451962126,
+											"stop": 1737451962126,
+											"status": "skipped",
+											"stage": "finished",
+											"statusDetails": {
+												"known": false,
+												"muted": false,
+												"flaky": false
+											},
+											"parameters": [
+												{
+													"name": "Парам1",
+													"value": "Список"
+												},
+												{
+													"name": "Парам2",
+													"value": "Дополнение1"
+												}
+											],
+											"attachments": [],
+											"steps": []
+										},
+										{
+											"name": "И в таблице 'Список' в дополнение формы с именем 'Дополнение1' я ввожу текст \"Васильев Роман Александрович\"",
+											"start": 1737451962126,
+											"stop": 1737451962126,
+											"status": "skipped",
+											"stage": "finished",
+											"statusDetails": {
+												"known": false,
+												"muted": false,
+												"flaky": false
+											},
+											"parameters": [
+												{
+													"name": "Парам1",
+													"value": "Список"
+												},
+												{
+													"name": "Парам2",
+													"value": "Дополнение1"
+												},
+												{
+													"name": "Парам3",
+													"value": "Васильев Роман Александрович"
+												}
+											],
+											"attachments": [],
+											"steps": []
+										},
+										{
+											"name": "И в таблице 'Список' я нажимаю на кнопку с именем 'ФормаВыбрать'",
+											"start": 1737451962126,
+											"stop": 1737451962126,
+											"status": "skipped",
+											"stage": "finished",
+											"statusDetails": {
+												"known": false,
+												"muted": false,
+												"flaky": false
+											},
+											"parameters": [
+												{
+													"name": "Парам1",
+													"value": "Список"
+												},
+												{
+													"name": "Парам2",
+													"value": "ФормаВыбрать"
+												}
+											],
+											"attachments": [],
+											"steps": []
+										},
+										{
+											"name": "Тогда открылось окно \"Решение о проведении инвентаризации *\"",
+											"start": 1737451962126,
+											"stop": 1737451962126,
+											"status": "skipped",
+											"stage": "finished",
+											"statusDetails": {
+												"known": false,
+												"muted": false,
+												"flaky": false
+											},
+											"parameters": [
+												{
+													"name": "Парам1",
+													"value": "Решение о проведении инвентаризации *"
+												}
+											],
+											"attachments": [],
+											"steps": []
+										},
+										{
+											"name": "И я нажимаю на кнопку с именем 'ФормаЗаписать'",
+											"start": 1737451962126,
+											"stop": 1737451962126,
+											"status": "skipped",
+											"stage": "finished",
+											"statusDetails": {
+												"known": false,
+												"muted": false,
+												"flaky": false
+											},
+											"parameters": [
+												{
+													"name": "Парам1",
+													"value": "ФормаЗаписать"
+												}
+											],
+											"attachments": [],
+											"steps": []
+										},
+										{
+											"name": "Тогда открылось окно \"Решение о проведении инвентаризации *\"",
+											"start": 1737451962126,
+											"stop": 1737451962126,
+											"status": "skipped",
+											"stage": "finished",
+											"statusDetails": {
+												"known": false,
+												"muted": false,
+												"flaky": false
+											},
+											"parameters": [
+												{
+													"name": "Парам1",
+													"value": "Решение о проведении инвентаризации *"
+												}
+											],
+											"attachments": [],
+											"steps": []
+										},
+										{
+											"name": "И из выпадающего списка с именем 'МеханизмОзнакомленияСотрудников_ЛистСогласования_Сотрудник' я выбираю точное значение \"Васильев Роман Александрович\"",
+											"start": 1737451962126,
+											"stop": 1737451962126,
+											"status": "skipped",
+											"stage": "finished",
+											"statusDetails": {
+												"known": false,
+												"muted": false,
+												"flaky": false
+											},
+											"parameters": [
+												{
+													"name": "Парам1",
+													"value": "МеханизмОзнакомленияСотрудников_ЛистСогласования_Сотрудник"
+												},
+												{
+													"name": "Парам2",
+													"value": "Васильев Роман Александрович"
+												}
+											],
+											"attachments": [],
+											"steps": []
+										},
+										{
+											"name": "И я нажимаю кнопку выбора у поля с именем 'МеханизмОзнакомленияСотрудников_ЛистСогласования_Дата'",
+											"start": 1737451962126,
+											"stop": 1737451962126,
+											"status": "skipped",
+											"stage": "finished",
+											"statusDetails": {
+												"known": false,
+												"muted": false,
+												"flaky": false
+											},
+											"parameters": [],
+											"attachments": [],
+											"steps": [
+												{
+													"name": "И я устанавливаю флаг с именем 'МеханизмОзнакомленияСотрудников_ЛистСогласования_Флажок'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "МеханизмОзнакомленияСотрудников_ЛистСогласования_Флажок"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												}
+											]
+										},
+										{
+											"name": "И я нажимаю на кнопку с именем 'МеханизмОзнакомленияСотрудников_ЛистСогласования_СохранитьРезультаты'",
+											"start": 1737451962126,
+											"stop": 1737451962126,
+											"status": "skipped",
+											"stage": "finished",
+											"statusDetails": {
+												"known": false,
+												"muted": false,
+												"flaky": false
+											},
+											"parameters": [
+												{
+													"name": "Парам1",
+													"value": "МеханизмОзнакомленияСотрудников_ЛистСогласования_СохранитьРезультаты"
+												}
+											],
+											"attachments": [],
+											"steps": []
+										},
+										{
+											"name": "И я нажимаю на кнопку с именем 'Button0'",
+											"start": 1737451962126,
+											"stop": 1737451962126,
+											"status": "skipped",
+											"stage": "finished",
+											"statusDetails": {
+												"known": false,
+												"muted": false,
+												"flaky": false
+											},
+											"parameters": [
+												{
+													"name": "Парам1",
+													"value": "Button0"
+												}
+											],
+											"attachments": [],
+											"steps": []
+										},
+										{
+											"name": "Тогда открылось окно \"Решение о проведении инвентаризации *\"",
+											"start": 1737451962126,
+											"stop": 1737451962126,
+											"status": "skipped",
+											"stage": "finished",
+											"statusDetails": {
+												"known": false,
+												"muted": false,
+												"flaky": false
+											},
+											"parameters": [
+												{
+													"name": "Парам1",
+													"value": "Решение о проведении инвентаризации *"
+												}
+											],
+											"attachments": [],
+											"steps": []
+										}
+									]
+								},
+								{
+									"name": "*Файлы",
+									"start": 1737451962126,
+									"stop": 1737451962126,
+									"status": "skipped",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [],
+									"attachments": [],
+									"steps": [
+										{
+											"name": "И я нажимаю на кнопку с именем 'УправлениеПрисоединеннымиФайламиОткрытьСписок0'",
+											"start": 1737451962126,
+											"stop": 1737451962126,
+											"status": "skipped",
+											"stage": "finished",
+											"statusDetails": {
+												"known": false,
+												"muted": false,
+												"flaky": false
+											},
+											"parameters": [],
+											"attachments": [],
+											"steps": [
+												{
+													"name": "Когда открылось окно \"Решение о проведении инвентаризации *\"",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Решение о проведении инвентаризации *"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И я нажимаю на кнопку с именем 'УправлениеПрисоединеннымиФайламиОткрытьСписок0'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "УправлениеПрисоединеннымиФайламиОткрытьСписок0"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "Тогда открылось окно \"Присоединенные файлы: Решение о проведении инвентаризации *\"",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Присоединенные файлы: Решение о проведении инвентаризации *"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И я выбираю файл 'C:\\Users\\User\\Documents\\01\\file.pdf'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "C:\\Users\\User\\Documents\\01\\file.pdf"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И я нажимаю на кнопку с именем 'ДобавитьИзФайлаНаДиске'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "ДобавитьИзФайлаНаДиске"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "Тогда открылось окно 'Присоединенные файлы: Решение о проведении инвентаризации *'",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Присоединенные файлы: Решение о проведении инвентаризации *"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												},
+												{
+													"name": "И Я закрываю окно \"Присоединенные файлы: Решение о проведении инвентаризации *\"",
+													"start": 1737451962126,
+													"stop": 1737451962126,
+													"status": "skipped",
+													"stage": "finished",
+													"statusDetails": {
+														"known": false,
+														"muted": false,
+														"flaky": false
+													},
+													"parameters": [
+														{
+															"name": "Парам1",
+															"value": "Присоединенные файлы: Решение о проведении инвентаризации *"
+														}
+													],
+													"attachments": [],
+													"steps": []
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "И я нажимаю на кнопку с именем 'ФормаЗаписать'",
+									"start": 1737451962127,
+									"stop": 1737451962127,
+									"status": "skipped",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ФормаЗаписать"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Тогда открылось окно \"Решение о проведении инвентаризации *\"",
+									"start": 1737451962127,
+									"stop": 1737451962127,
+									"status": "skipped",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "Решение о проведении инвентаризации *"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "Когда открылось окно \"Решение о проведении инвентаризации *\"",
+									"start": 1737451962127,
+									"stop": 1737451962127,
+									"status": "skipped",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "Решение о проведении инвентаризации *"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "И я нажимаю на кнопку с именем 'ФормаПровести'",
+									"start": 1737451962127,
+									"stop": 1737451962127,
+									"status": "skipped",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [
+										{
+											"name": "Парам1",
+											"value": "ФормаПровести"
+										}
+									],
+									"attachments": [],
+									"steps": []
+								},
+								{
+									"name": "*На согласовании",
+									"start": 1737451962127,
+									"stop": 1737451962127,
+									"status": "skipped",
+									"stage": "finished",
+									"statusDetails": {
+										"known": false,
+										"muted": false,
+										"flaky": false
+									},
+									"parameters": [],
+									"attachments": [],
+									"steps": [
+										{
+											"name": "Когда открылось окно \"Решение о проведении инвентаризации *\"",
+											"start": 1737451962127,
+											"stop": 1737451962127,
+											"status": "skipped",
+											"stage": "finished",
+											"statusDetails": {
+												"known": false,
+												"muted": false,
+												"flaky": false
+											},
+											"parameters": [
+												{
+													"name": "Парам1",
+													"value": "Решение о проведении инвентаризации *"
+												}
+											],
+											"attachments": [],
+											"steps": []
+										},
+										{
+											"name": "И я нажимаю на кнопку с именем 'Кнопка*'",
+											"start": 1737451962127,
+											"stop": 1737451962127,
+											"status": "skipped",
+											"stage": "finished",
+											"statusDetails": {
+												"known": false,
+												"muted": false,
+												"flaky": false
+											},
+											"parameters": [
+												{
+													"name": "Парам1",
+													"value": "Кнопка*"
+												}
+											],
+											"attachments": [],
+											"steps": []
+										},
+										{
+											"name": "Тогда открылось окно \"Подпись документа\"",
+											"start": 1737451962127,
+											"stop": 1737451962127,
+											"status": "skipped",
+											"stage": "finished",
+											"statusDetails": {
+												"known": false,
+												"muted": false,
+												"flaky": false
+											},
+											"parameters": [
+												{
+													"name": "Парам1",
+													"value": "Подпись документа"
+												}
+											],
+											"attachments": [],
+											"steps": []
+										},
+										{
+											"name": "И в поле с именем 'Пароль' я ввожу текст \"ceqiD977\"",
+											"start": 1737451962127,
+											"stop": 1737451962127,
+											"status": "skipped",
+											"stage": "finished",
+											"statusDetails": {
+												"known": false,
+												"muted": false,
+												"flaky": false
+											},
+											"parameters": [
+												{
+													"name": "Парам1",
+													"value": "Пароль"
+												},
+												{
+													"name": "Парам2",
+													"value": "ceqiD977"
+												}
+											],
+											"attachments": [],
+											"steps": []
+										},
+										{
+											"name": "И я нажимаю на кнопку с именем 'Подписать'",
+											"start": 1737451962127,
+											"stop": 1737451962127,
+											"status": "skipped",
+											"stage": "finished",
+											"statusDetails": {
+												"known": false,
+												"muted": false,
+												"flaky": false
+											},
+											"parameters": [
+												{
+													"name": "Парам1",
+													"value": "Подписать"
+												}
+											],
+											"attachments": [],
+											"steps": []
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "*ПБС НИТУ \"МИСИС\"",
+			"start": 1737451962127,
+			"stop": 1737451962127,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И Я подключаю клиент тестирования \"Клиент БГУ1\" из таблицы клиентов тестирования",
+					"start": 1737451962127,
+					"stop": 1737451962127,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Клиент БГУ1"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я вывожу сообщение в менеджер тестирования \"Клиент2 подключен\"",
+					"start": 1737451962127,
+					"stop": 1737451962127,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "И Я Создаю решение об инвентаризации для ' ПБС НИТУ \"МИСИС\"', КодОрганизация = \"000003\", ЗначениеОбъектыКФО = \"1\", Сотрудник = \"Абросимов\", КодМестаХранения = \"18\", НаименованиеМестаХранения = \"Кафедра ТОТП\", СогласующееЛицо =\"Лыфарь Ирина Юрьевна\", ТабельныйНомерСоглЛица = \"МС99\"",
+							"start": 1737451962127,
+							"stop": 1737451962127,
+							"status": "skipped",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": " ПБС НИТУ \"МИСИС\""
+								},
+								{
+									"name": "Парам2",
+									"value": "000003"
+								},
+								{
+									"name": "Парам3",
+									"value": "1"
+								},
+								{
+									"name": "Парам4",
+									"value": "Абросимов"
+								},
+								{
+									"name": "Парам5",
+									"value": "18"
+								},
+								{
+									"name": "Парам6",
+									"value": "Кафедра ТОТП"
+								},
+								{
+									"name": "Парам7",
+									"value": "Лыфарь Ирина Юрьевна"
+								},
+								{
+									"name": "Парам8",
+									"value": "МС99"
+								}
+							],
+							"attachments": [
+								{
+									"name": "Клиент БГУ.screenshot",
+									"source": "v8_DA76_192.png",
+									"type": "image/png"
+								},
+								{
+									"name": "Клиент БГУ.[КОПИЯ] БГУ с 2022 / Бухгалтерия государственного учреждения КОРП, редакция 2.0",
+									"source": "v8_DA76_193.png",
+									"type": "image/png"
+								}
+							],
+							"steps": []
+						}
+					]
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Создание Решения о проведении инвентаризации из ЛК сотрудника"
+		},
+		{
+			"name": "epic",
+			"value": "Создание Решения о проведении инвентаризации из ЛК сотрудника"
+		},
+		{
+			"name": "tag",
+			"value": "TestClient"
+		},
+		{
+			"name": "tag",
+			"value": "IgnoreOnCIMainBuild"
+		},
+		{
+			"name": "tag",
+			"value": "ExportScenarios"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Test"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-CUV39C4"
+		}
+	],
+	"links": [],
+	"attachments": [
+		{
+			"name": "Клиент БГУ.screenshot",
+			"source": "ac37fe33-0e11-42f3-840d-929ffcd3f79d-attachment.png",
+			"type": "image/png"
+		},
+		{
+			"name": "Клиент БГУ.[КОПИЯ] БГУ с 2022 / Бухгалтерия государственного учреждения КОРП, редакция 2.0",
+			"source": "f8d96a49-bc6c-44ef-ae9d-79493d5d7803-attachment.png",
+			"type": "image/png"
+		},
+		{
+			"name": "ЖурналРегистрации.mxl",
+			"source": "01ed88ce-9293-4532-aa7a-0c1d87402f97-attachment.mxl",
+			"type": "mxl"
+		},
+		{
+			"name": "ЖурналРегистрации.html",
+			"source": "c28c51c3-32dd-455e-8d6d-5def8554ce3d-attachment.html",
+			"type": "html"
+		},
+		{
+			"name": "ЖурналРегистрации.xlsx",
+			"source": "6b08d65e-1fcd-48ec-88a6-716b5a74bb03-attachment.xlsx",
+			"type": "xlsx"
+		},
+		{
+			"name": "СостояниеАктивнойФормы.mxl",
+			"source": "de553f5a-cff4-4c55-9c5d-21ddc8701b86-attachment.mxl",
+			"type": "mxl"
+		},
+		{
+			"name": "СостояниеАктивнойФормы.html",
+			"source": "1138f88f-4f80-4eb1-8dd1-e95206cb7085-attachment.html",
+			"type": "html"
+		},
+		{
+			"name": "СостояниеАктивнойФормы.xlsx",
+			"source": "909c690b-64e7-48fd-8fd9-fb41752e32f6-attachment.xlsx",
+			"type": "xlsx"
+		},
+		{
+			"name": "СостояниеВсехФорм.mxl",
+			"source": "ddc293ab-1072-46dc-be9f-3f0b296215ab-attachment.mxl",
+			"type": "mxl"
+		},
+		{
+			"name": "СостояниеВсехФорм.html",
+			"source": "63334cc7-f0b2-4ee3-b711-2585133330e1-attachment.html",
+			"type": "html"
+		},
+		{
+			"name": "СостояниеВсехФорм.xlsx",
+			"source": "e12ca18f-06ed-4b5d-927c-264fe63eaf46-attachment.xlsx",
+			"type": "xlsx"
+		},
+		{
+			"name": "ДанныеОСетевыхСоединениях.txt",
+			"source": "35cc8645-051c-4227-9568-1b1cfb3449f7-attachment.txt",
+			"type": "txt"
+		},
+		{
+			"name": "ДанныеОПроцессахОС.txt",
+			"source": "61b29677-7e20-4c6f-b01d-ee4d5007a517-attachment.txt",
+			"type": "txt"
+		},
+		{
+			"name": "ЗначенияПеременных.mxl",
+			"source": "71179f70-30c0-4da9-8707-21e5f0843f6b-attachment.mxl",
+			"type": "mxl"
+		},
+		{
+			"name": "ЗначенияПеременных.html",
+			"source": "f0f10f9c-1d3e-4641-9456-f70f429ddc6a-attachment.html",
+			"type": "html"
+		}
+	],
+	"description": null
+}

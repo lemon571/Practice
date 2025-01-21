@@ -1,0 +1,42 @@
+{
+	"uuid": "82070973-4baa-460b-8bb3-a81891b45043",
+	"name": "Контекст_Создание Решения о проведении инвентаризации из ЛК сотрудника",
+	"description": "",
+	"children": [
+		"bbf41360-98d0-48e5-807d-3419696c48ba"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1737451522356,
+			"stop": 1737451522401,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрыл все окна клиентского приложения",
+			"start": 1737451522402,
+			"stop": 1737451522557,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}
